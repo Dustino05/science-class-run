@@ -148,10 +148,6 @@ e 4 4 4 e 7 7 7 b f e f .
     true
     )
 })
-sprites.onOverlap(SpriteKind.Enemy, SpriteKind.Player, function (sprite, otherSprite) {
-    info.changeScoreBy(10)
-    info.changeLifeBy(-1)
-})
 controller.right.onEvent(ControllerButtonEvent.Pressed, function () {
     animation.runImageAnimation(
     Student,
