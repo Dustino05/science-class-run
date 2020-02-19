@@ -1,0 +1,21 @@
+{
+    "name": "Science class Run",
+    "dependencies": {
+        "device": "*",
+        "animation": "*",
+        "storyboard": "*",
+        "color-coded-tilemap": "*",
+        "pxt-circuit-playground-character-icons": "github:adafruit/circuit-playground-character-icons#v0.0.6",
+        "darts": "*"
+    },
+    "description": "",
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "preferredEditor": "blocksprj",
+    "testFiles": [
+        "test.ts"
+    ]
+}
